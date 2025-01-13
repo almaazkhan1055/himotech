@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Hero2 from "./components/Hero2";
-import WhatWeDo from "./components/whatWeDo";
 import Legacy from "./components/Legacy";
 import Difference from "./components/Difference";
 import CardSection from "./components/CardSection";
 import Process from "./components/Process";
+import OurWorks from "./components/OurWorks";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Hero2 />
-      <WhatWeDo />
+      <OurWorks />
       <Legacy />
       <Difference />
       <Process />

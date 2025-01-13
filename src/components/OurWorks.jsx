@@ -4,7 +4,7 @@ import Button from "./Button";
 import TypingEffect from "./TypingEffect";
 import Globe from "./Globe";
 
-const WhatWeDo = () => {
+const OurWorks = () => {
   return (
     <div className="whatwedo relative">
       <img
@@ -29,4 +29,4 @@ const WhatWeDo = () => {
   );
 };
 
-export default WhatWeDo;
+export default OurWorks;
