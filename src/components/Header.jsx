@@ -29,11 +29,13 @@ const Header = () => {
       <div
         className={`${
           isMenuOpen ? "block" : "hidden"
-        } absolute top-16 left-0 w-full bg-[#313131] bg-opacity-80 backdrop-blur py-4 md:hidden`}
+        } absolute top-16 left-0 w-full bg-[#313131] bg-opacity-1 py-4 md:hidden`}
       >
         <ul className="flex flex-col items-center gap-6">
           {links.map((link, index) => (
-            <li key={index}>{link}</li>
+            <li key={index} className="flex flex-col gap-10">
+              {link}
+            </li>
           ))}
           <li>
             <Button text="Contact" bgColor1="#5036BC" bgColor2="#4265DB" />

@@ -259,7 +259,7 @@ const Footer = () => {
         <span className="opacity-70">
           Copyright © 2024 Himotech Global Pvt Ltd. All Rights Reserved.
         </span>
-        <span className="text-black">Privacy Policy</span>
+        <span className="text-blackn">Privacy Policy</span>
       </p>
     </>
   );

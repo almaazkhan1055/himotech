@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "./Form";
 import contactImg from "../assets/contactImg.png";
-import ContactLogo from "../assets/ContactLogo.png";
+import contactLogo from "../assets/contactLogo.png";
 
 const Contact = () => {
   return (
@@ -13,8 +13,8 @@ const Contact = () => {
         <Form />
         <div className="w-full md:w-[45%] flex flex-col relative">
           <img
-            src={ContactLogo}
-            alt="ContactLogo"
+            src={contactLogo}
+            alt="contactLogo"
             className="absolute -top-20 hidden md:block"
             width={682}
           />
