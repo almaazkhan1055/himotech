@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 .hero {
   background: url(./assets/heroimg.png);
   background-size: cover;
@@ -95,4 +101,19 @@
 .rotate-infinite {
   animation: rotateInfinite 5s linear infinite;
   cursor: pointer;
+}
+
+.cardSection {
+  background: radial-gradient(circle, #000000, #00011c, #00022f);
+}
+
+.contact {
+  background: linear-gradient(135deg, #00022f, #4265db);
+}
+
+.input {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid white;
 }

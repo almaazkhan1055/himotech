@@ -7,6 +7,8 @@ import Difference from "./components/Difference";
 import CardSection from "./components/CardSection";
 import Process from "./components/Process";
 import OurWorks from "./components/OurWorks";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Difference />
       <Process />
       <CardSection />
+      <Contact />
+      <Footer />
     </>
   );
 }

@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#313131] bg-opacity-80 backdrop-blur flex items-center justify-between sm:px-20 px-5 text-white py-2 relative">
+    <div className="header flex items-center justify-between sm:px-20 px-5 text-white py-2 relative">
       <img src={logo} alt="Logo" />
 
       <ul className="hidden md:flex items-center gap-10">

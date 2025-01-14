@@ -43,7 +43,7 @@ const CardsData = [
 
 const CardSection = () => {
   return (
-    <div className="bg-[#00022C] min-h-screen py-20 px-8 sm:px-12 lg:px-20 relative z-40 overflow-hidden">
+    <div className="cardSection min-h-screen py-20 px-8 sm:px-12 lg:px-20 relative z-40 overflow-hidden">
       <div className="flex flex-col lg:flex-row items-center justify-between mb-20">
         <div className="w-full lg:w-1/2">
           <Globe title="Explore Our Expert Solution" />

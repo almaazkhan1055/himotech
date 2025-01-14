@@ -56,6 +56,10 @@ const Legacy = () => {
           alt="Legacy Rectangle"
           className="w-full h-auto object-cover"
         />
+        <p className="text-white text-6xl sm:absolute top-[35%] max-sm:hidden right-[10%]">
+          A <br /> <span className="text-9xl">Closer</span> <br />{" "}
+          <span className="text-3xl ml-52">Look at US!</span>
+        </p>
 
         <div className="absolute top-20 right-10 sm:right-36 p-6 rounded-xl bg-transparent border border-white shadow-xl">
           <p className="text-black text-lg sm:text-xl font-semibold text-center">
